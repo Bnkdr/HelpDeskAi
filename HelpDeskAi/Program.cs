@@ -13,11 +13,10 @@ namespace HelpDeskAi
         /// </summary>
         [STAThread]
         static void Main()
-        {s
+        {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Form1());
-           //salih mi kwğpekğpwekğpewkğpkqweğpkğpwvw//
-        }  ///şisdasd
-    }sdasd
+        }  
+    }
 }
