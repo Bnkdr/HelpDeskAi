@@ -17,16 +17,6 @@ namespace HelpDeskAi
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Form1());
-
-
-            //pain.
-            //fuck you
-            //and your family
-            //with your entire destiny
-            //your apache ancestors
-            //your fucking ancestor tree
-
-
         }  
     }
 }
