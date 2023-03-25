@@ -17,7 +17,7 @@ namespace HelpDeskAi
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Form1());
-            //eray ve taha 2
+            //eray ve taha 2 bişey
         }  
     }
 }
