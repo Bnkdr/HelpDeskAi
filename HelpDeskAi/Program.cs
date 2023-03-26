@@ -19,6 +19,7 @@ namespace HelpDeskAi
             Application.Run(new Form1());
             //eray ve taha 2 bişey YETER
             //deli
+            //X
         }  
     }
 }
