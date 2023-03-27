@@ -39,11 +39,11 @@
             this.button3 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.button11 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.panelTitleBar = new System.Windows.Forms.Panel();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.panelDesktop = new System.Windows.Forms.Panel();
+            this.button11 = new System.Windows.Forms.Button();
             this.panelMenu.SuspendLayout();
             this.panel1.SuspendLayout();
             this.panelTitleBar.SuspendLayout();
@@ -245,28 +245,13 @@
             // 
             // panel1
             // 
-            this.panel1.Controls.Add(this.button1);
             this.panel1.Controls.Add(this.button11);
+            this.panel1.Controls.Add(this.button1);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(230, 60);
             this.panel1.TabIndex = 3;
-            // 
-            // button11
-            // 
-            this.button11.BackColor = System.Drawing.Color.CornflowerBlue;
-            this.button11.Cursor = System.Windows.Forms.Cursors.Default;
-            this.button11.FlatAppearance.BorderColor = System.Drawing.Color.CornflowerBlue;
-            this.button11.FlatAppearance.BorderSize = 0;
-            this.button11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button11.Image = global::HelpDeskAi.Properties.Resources.output_onlinepngtools__1_;
-            this.button11.Location = new System.Drawing.Point(171, 10);
-            this.button11.Name = "button11";
-            this.button11.Size = new System.Drawing.Size(44, 44);
-            this.button11.TabIndex = 0;
-            this.button11.UseVisualStyleBackColor = false;
-            this.button11.Click += new System.EventHandler(this.button11_Click_1);
             // 
             // button1
             // 
@@ -295,10 +280,10 @@
             // textBox1
             // 
             this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.textBox1.Font = new System.Drawing.Font("Bauhaus 93", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.textBox1.Location = new System.Drawing.Point(6, 19);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(110, 23);
+            this.textBox1.Size = new System.Drawing.Size(110, 30);
             this.textBox1.TabIndex = 4;
             this.textBox1.Text = "Dashboard";
             // 
@@ -311,6 +296,20 @@
             this.panelDesktop.Size = new System.Drawing.Size(570, 390);
             this.panelDesktop.TabIndex = 2;
             this.panelDesktop.Paint += new System.Windows.Forms.PaintEventHandler(this.panelDesktop_Paint);
+            // 
+            // button11
+            // 
+            this.button11.BackColor = System.Drawing.Color.CornflowerBlue;
+            this.button11.Cursor = System.Windows.Forms.Cursors.Default;
+            this.button11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button11.ForeColor = System.Drawing.Color.CornflowerBlue;
+            this.button11.Image = global::HelpDeskAi.Properties.Resources.output_onlinepngtools__1_;
+            this.button11.Location = new System.Drawing.Point(171, 10);
+            this.button11.Name = "button11";
+            this.button11.Size = new System.Drawing.Size(44, 44);
+            this.button11.TabIndex = 0;
+            this.button11.UseVisualStyleBackColor = false;
+            this.button11.Click += new System.EventHandler(this.button11_Click_1);
             // 
             // Form2
             // 
