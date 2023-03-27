@@ -19,7 +19,7 @@ namespace HelpDeskAi
             this.labelVersion.Text = String.Format("Sürüm {0}", AssemblyVersion);
             this.labelCopyright.Text = AssemblyCopyright;
             this.labelCompany.Text = AssemblyCompany;
-            this.textBoxDescription.Text = AssemblyDescription;
+            //this.textBoxDescription.Text = AssemblyDescription;
         }
 
         #region Derleme Öznitelik Erişimcileri
@@ -117,6 +117,11 @@ namespace HelpDeskAi
             Form1 form1 = new Form1();
             form1.Show();
             this.Hide();
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
