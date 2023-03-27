@@ -31,5 +31,22 @@ namespace HelpDeskAi
         {
 
         }
+
+        private void button9_Click(object sender, EventArgs e)
+        {
+            Credits credits = new Credits();
+            credits.Show();
+            this.Hide();
+        }
+
+        private void button12_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button10_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
