@@ -102,12 +102,7 @@ namespace HelpDeskAi
         }
 
 
-        private void button11_Click_1(object sender, EventArgs e)
-        {
-            Form2 form2 = new Form2();
-            form2.Show();
-            this.Hide();
-        }
+       
 
         private void button2_Click(object sender, EventArgs e)
         {
@@ -162,6 +157,13 @@ namespace HelpDeskAi
         {
             Form10 form10 = new Form10();
             form10.Show();
+            this.Hide();
+        }
+
+        private void button11_Click(object sender, EventArgs e)
+        {
+            Form2 form2 = new Form2();
+            form2.Show();
             this.Hide();
         }
     }
