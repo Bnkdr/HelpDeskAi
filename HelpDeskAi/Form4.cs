@@ -11,13 +11,13 @@ using System.Runtime.InteropServices;
 
 namespace HelpDeskAi
 {
-    public partial class Form2 : Form
+    public partial class Form4 : Form
     {
         //Fields
         private int borderSize = 2;
         private Size formSize; //Keep form size when it is minimized and restored.Since the form is resized because it takes into account the size of the title bar and borders.
                                //Constructor
-        public Form2()
+        public Form4()
         {
             InitializeComponent();
             CollapseMenu();
@@ -31,7 +31,7 @@ namespace HelpDeskAi
         }
 
 
-        private void Form2_Load(object sender, EventArgs e)
+        private void Form4_Load(object sender, EventArgs e)
         {
             formSize = this.ClientSize;
         }
@@ -106,62 +106,6 @@ namespace HelpDeskAi
         {
             Form2 form2 = new Form2();
             form2.Show();
-            this.Hide();
-        }
-
-        private void button2_Click(object sender, EventArgs e)
-        {
-            Form3 form3 = new Form3();
-            form3.Show();
-            this.Hide();
-        }
-
-        private void button3_Click(object sender, EventArgs e)
-        {
-            Form4 form4 = new Form4();
-            form4.Show();
-            this.Hide();
-        }
-
-        private void button4_Click(object sender, EventArgs e)
-        {
-            Form5 form5 = new Form5();
-            form5.Show();
-            this.Hide();
-        }
-
-        private void button5_Click(object sender, EventArgs e)
-        {
-            Form6 form6 = new Form6();
-            form6.Show();
-            this.Hide();
-        }
-
-        private void button6_Click(object sender, EventArgs e)
-        {
-            Form7 form7 = new Form7();
-            form7.Show();
-            this.Hide();
-        }
-
-        private void button7_Click(object sender, EventArgs e)
-        {
-            Form8 form8 = new Form8();
-            form8.Show();
-            this.Hide();
-        }
-
-        private void button8_Click(object sender, EventArgs e)
-        {
-            Form9 form9 = new Form9();
-            form9.Show();
-            this.Hide();
-        }
-
-        private void button10_Click_1(object sender, EventArgs e)
-        {
-            Form10 form10 = new Form10();
-            form10.Show();
             this.Hide();
         }
     }
