@@ -114,8 +114,8 @@ namespace HelpDeskAi
 
         private void okButton_Click(object sender, EventArgs e)
         {
-            Form1 form1 = new Form1();
-            form1.Show();
+            Form2 form2 = new Form2();
+            form2.Show();
             this.Hide();
         }
 

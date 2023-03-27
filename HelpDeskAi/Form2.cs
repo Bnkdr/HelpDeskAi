@@ -20,11 +20,10 @@ namespace HelpDeskAi
         public Form2()
         {
             InitializeComponent();
-            //CollapseMenu();
+            CollapseMenu();
             this.Padding = new Padding(borderSize);//Border size
             this.BackColor = Color.FromArgb(98, 102, 244);//Border color
         }
-        //Drag Form
        
         private void panelTitleBar_MouseDown(object sender, MouseEventArgs e)
         {
@@ -71,9 +70,9 @@ namespace HelpDeskAi
 
     private void CollapseMenu()
     {
-        if (this.panelMenu.Width > 100) //Collapse menu
+        if (this.panelMenu.Width > 200) //Collapse menu
         {
-            panelMenu.Width = 50;
+            panelMenu.Width = 75;
 
             panelMenu.Dock = DockStyle.Left;
             foreach (Button menuButton in panelMenu.Controls.OfType<Button>())
@@ -85,16 +84,21 @@ namespace HelpDeskAi
         }
         else
         { //Expand menu
-            panelMenu.Width = 130;
+            panelMenu.Width = 230;
 
             panelMenu.Dock = DockStyle.Left;
             foreach (Button menuButton in panelMenu.Controls.OfType<Button>())
             {
-                menuButton.Text = "   " + menuButton.Tag.ToString();
+                menuButton.Text = "  " + menuButton.Tag.ToString();
                 menuButton.ImageAlign = ContentAlignment.MiddleLeft;
                 menuButton.Padding = new Padding(10, 0, 0, 0);
             }
         }
     }
+
+        private void panelMenu_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }
