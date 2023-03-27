@@ -87,7 +87,7 @@ namespace HelpDeskAi
         { //Expand menu
             panelMenu.Width = 130;
 
-            panelMenu.Dock = DockStyle.None;
+            panelMenu.Dock = DockStyle.Left;
             foreach (Button menuButton in panelMenu.Controls.OfType<Button>())
             {
                 menuButton.Text = "   " + menuButton.Tag.ToString();

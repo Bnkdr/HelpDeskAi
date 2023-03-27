@@ -29,22 +29,22 @@
         private void InitializeComponent()
         {
             this.panelMenu = new System.Windows.Forms.Panel();
-            this.panelTitleBar = new System.Windows.Forms.Panel();
-            this.panelDesktop = new System.Windows.Forms.Panel();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
-            this.button7 = new System.Windows.Forms.Button();
-            this.button8 = new System.Windows.Forms.Button();
             this.button9 = new System.Windows.Forms.Button();
+            this.button8 = new System.Windows.Forms.Button();
+            this.button7 = new System.Windows.Forms.Button();
+            this.button6 = new System.Windows.Forms.Button();
+            this.button5 = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.button1 = new System.Windows.Forms.Button();
+            this.panelTitleBar = new System.Windows.Forms.Panel();
             this.textBox1 = new System.Windows.Forms.TextBox();
+            this.panelDesktop = new System.Windows.Forms.Panel();
             this.panelMenu.SuspendLayout();
-            this.panelTitleBar.SuspendLayout();
             this.panel1.SuspendLayout();
+            this.panelTitleBar.SuspendLayout();
             this.SuspendLayout();
             // 
             // panelMenu
@@ -64,183 +64,6 @@
             this.panelMenu.Name = "panelMenu";
             this.panelMenu.Size = new System.Drawing.Size(230, 450);
             this.panelMenu.TabIndex = 0;
-            // 
-            // panelTitleBar
-            // 
-            this.panelTitleBar.BackColor = System.Drawing.Color.White;
-            this.panelTitleBar.Controls.Add(this.textBox1);
-            this.panelTitleBar.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelTitleBar.Location = new System.Drawing.Point(230, 0);
-            this.panelTitleBar.Name = "panelTitleBar";
-            this.panelTitleBar.Size = new System.Drawing.Size(570, 60);
-            this.panelTitleBar.TabIndex = 1;
-            this.panelTitleBar.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panelTitleBar_MouseDown_1);
-            // 
-            // panelDesktop
-            // 
-            this.panelDesktop.BackColor = System.Drawing.SystemColors.Control;
-            this.panelDesktop.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panelDesktop.Location = new System.Drawing.Point(230, 60);
-            this.panelDesktop.Name = "panelDesktop";
-            this.panelDesktop.Size = new System.Drawing.Size(570, 390);
-            this.panelDesktop.TabIndex = 2;
-            this.panelDesktop.Paint += new System.Windows.Forms.PaintEventHandler(this.panelDesktop_Paint);
-            // 
-            // panel1
-            // 
-            this.panel1.Controls.Add(this.button1);
-            this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(230, 60);
-            this.panel1.TabIndex = 0;
-            // 
-            // button2
-            // 
-            this.button2.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button2.FlatAppearance.BorderSize = 0;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Font = new System.Drawing.Font("Verdana", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.button2.Image = global::HelpDeskAi.Properties.Resources.output_onlinepngtools__1_;
-            this.button2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button2.Location = new System.Drawing.Point(0, 60);
-            this.button2.Name = "button2";
-            this.button2.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.button2.Size = new System.Drawing.Size(230, 40);
-            this.button2.TabIndex = 1;
-            this.button2.Tag = "  Öğretmen Görüşmesi";
-            this.button2.Text = "  Text";
-            this.button2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button2.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.button2.UseVisualStyleBackColor = true;
-            // 
-            // button1
-            // 
-            this.button1.BackColor = System.Drawing.Color.Transparent;
-            this.button1.FlatAppearance.BorderSize = 0;
-            this.button1.ForeColor = System.Drawing.Color.Transparent;
-            this.button1.Image = global::HelpDeskAi.Properties.Resources.Dropdown3line;
-            this.button1.Location = new System.Drawing.Point(192, 12);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(32, 32);
-            this.button1.TabIndex = 2;
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
-            // button3
-            // 
-            this.button3.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button3.FlatAppearance.BorderSize = 0;
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Font = new System.Drawing.Font("Verdana", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.button3.Image = global::HelpDeskAi.Properties.Resources.output_onlinepngtools__1_;
-            this.button3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button3.Location = new System.Drawing.Point(0, 100);
-            this.button3.Name = "button3";
-            this.button3.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.button3.Size = new System.Drawing.Size(230, 40);
-            this.button3.TabIndex = 2;
-            this.button3.Tag = "  İdare Görüşme";
-            this.button3.Text = "  Text";
-            this.button3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button3.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.button3.UseVisualStyleBackColor = true;
-            // 
-            // button4
-            // 
-            this.button4.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button4.FlatAppearance.BorderSize = 0;
-            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button4.Font = new System.Drawing.Font("Verdana", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.button4.Image = global::HelpDeskAi.Properties.Resources.output_onlinepngtools__1_;
-            this.button4.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button4.Location = new System.Drawing.Point(0, 140);
-            this.button4.Name = "button4";
-            this.button4.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.button4.Size = new System.Drawing.Size(230, 40);
-            this.button4.TabIndex = 3;
-            this.button4.Tag = "  Nöbetci Girişi";
-            this.button4.Text = "  Text";
-            this.button4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button4.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.button4.UseVisualStyleBackColor = true;
-            // 
-            // button5
-            // 
-            this.button5.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button5.FlatAppearance.BorderSize = 0;
-            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button5.Font = new System.Drawing.Font("Verdana", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.button5.Image = global::HelpDeskAi.Properties.Resources.output_onlinepngtools__1_;
-            this.button5.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button5.Location = new System.Drawing.Point(0, 180);
-            this.button5.Name = "button5";
-            this.button5.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.button5.Size = new System.Drawing.Size(230, 40);
-            this.button5.TabIndex = 4;
-            this.button5.Tag = "  Ziyartçi Listesi";
-            this.button5.Text = "  Text";
-            this.button5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button5.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.button5.UseVisualStyleBackColor = true;
-            // 
-            // button6
-            // 
-            this.button6.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button6.FlatAppearance.BorderSize = 0;
-            this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button6.Font = new System.Drawing.Font("Verdana", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.button6.Image = global::HelpDeskAi.Properties.Resources.output_onlinepngtools__1_;
-            this.button6.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button6.Location = new System.Drawing.Point(0, 220);
-            this.button6.Name = "button6";
-            this.button6.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.button6.Size = new System.Drawing.Size(230, 40);
-            this.button6.TabIndex = 5;
-            this.button6.Tag = "  Dersim Ne?";
-            this.button6.Text = "  Text";
-            this.button6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button6.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.button6.UseVisualStyleBackColor = true;
-            // 
-            // button7
-            // 
-            this.button7.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button7.FlatAppearance.BorderSize = 0;
-            this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button7.Font = new System.Drawing.Font("Verdana", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.button7.Image = global::HelpDeskAi.Properties.Resources.output_onlinepngtools__1_;
-            this.button7.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button7.Location = new System.Drawing.Point(0, 260);
-            this.button7.Name = "button7";
-            this.button7.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.button7.Size = new System.Drawing.Size(230, 40);
-            this.button7.TabIndex = 6;
-            this.button7.Tag = "  Öğrenci Bilgileri Bulma";
-            this.button7.Text = "  Text";
-            this.button7.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button7.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.button7.UseVisualStyleBackColor = true;
-            // 
-            // button8
-            // 
-            this.button8.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button8.FlatAppearance.BorderSize = 0;
-            this.button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button8.Font = new System.Drawing.Font("Verdana", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.button8.Image = global::HelpDeskAi.Properties.Resources.output_onlinepngtools__1_;
-            this.button8.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button8.Location = new System.Drawing.Point(0, 300);
-            this.button8.Name = "button8";
-            this.button8.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.button8.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.button8.Size = new System.Drawing.Size(230, 40);
-            this.button8.TabIndex = 7;
-            this.button8.Tag = "  Nöbetçi Analiz";
-            this.button8.Text = "  Text";
-            this.button8.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button8.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.button8.UseVisualStyleBackColor = true;
             // 
             // button9
             // 
@@ -262,6 +85,173 @@
             this.button9.UseVisualStyleBackColor = true;
             this.button9.Click += new System.EventHandler(this.button9_Click);
             // 
+            // button8
+            // 
+            this.button8.Dock = System.Windows.Forms.DockStyle.Top;
+            this.button8.FlatAppearance.BorderSize = 0;
+            this.button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button8.Font = new System.Drawing.Font("Verdana", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.button8.Image = global::HelpDeskAi.Properties.Resources.output_onlinepngtools__1_;
+            this.button8.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button8.Location = new System.Drawing.Point(0, 300);
+            this.button8.Name = "button8";
+            this.button8.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
+            this.button8.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.button8.Size = new System.Drawing.Size(230, 40);
+            this.button8.TabIndex = 7;
+            this.button8.Tag = "  Nöbetçi Analiz";
+            this.button8.Text = "  Text";
+            this.button8.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button8.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.button8.UseVisualStyleBackColor = true;
+            // 
+            // button7
+            // 
+            this.button7.Dock = System.Windows.Forms.DockStyle.Top;
+            this.button7.FlatAppearance.BorderSize = 0;
+            this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button7.Font = new System.Drawing.Font("Verdana", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.button7.Image = global::HelpDeskAi.Properties.Resources.output_onlinepngtools__1_;
+            this.button7.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button7.Location = new System.Drawing.Point(0, 260);
+            this.button7.Name = "button7";
+            this.button7.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
+            this.button7.Size = new System.Drawing.Size(230, 40);
+            this.button7.TabIndex = 6;
+            this.button7.Tag = "  Öğrenci Bilgileri Bulma";
+            this.button7.Text = "  Text";
+            this.button7.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button7.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.button7.UseVisualStyleBackColor = true;
+            // 
+            // button6
+            // 
+            this.button6.Dock = System.Windows.Forms.DockStyle.Top;
+            this.button6.FlatAppearance.BorderSize = 0;
+            this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button6.Font = new System.Drawing.Font("Verdana", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.button6.Image = global::HelpDeskAi.Properties.Resources.output_onlinepngtools__1_;
+            this.button6.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button6.Location = new System.Drawing.Point(0, 220);
+            this.button6.Name = "button6";
+            this.button6.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
+            this.button6.Size = new System.Drawing.Size(230, 40);
+            this.button6.TabIndex = 5;
+            this.button6.Tag = "  Dersim Ne?";
+            this.button6.Text = "  Text";
+            this.button6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button6.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.button6.UseVisualStyleBackColor = true;
+            // 
+            // button5
+            // 
+            this.button5.Dock = System.Windows.Forms.DockStyle.Top;
+            this.button5.FlatAppearance.BorderSize = 0;
+            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button5.Font = new System.Drawing.Font("Verdana", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.button5.Image = global::HelpDeskAi.Properties.Resources.output_onlinepngtools__1_;
+            this.button5.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button5.Location = new System.Drawing.Point(0, 180);
+            this.button5.Name = "button5";
+            this.button5.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
+            this.button5.Size = new System.Drawing.Size(230, 40);
+            this.button5.TabIndex = 4;
+            this.button5.Tag = "  Ziyartçi Listesi";
+            this.button5.Text = "  Text";
+            this.button5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button5.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.button5.UseVisualStyleBackColor = true;
+            // 
+            // button4
+            // 
+            this.button4.Dock = System.Windows.Forms.DockStyle.Top;
+            this.button4.FlatAppearance.BorderSize = 0;
+            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button4.Font = new System.Drawing.Font("Verdana", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.button4.Image = global::HelpDeskAi.Properties.Resources.output_onlinepngtools__1_;
+            this.button4.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button4.Location = new System.Drawing.Point(0, 140);
+            this.button4.Name = "button4";
+            this.button4.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
+            this.button4.Size = new System.Drawing.Size(230, 40);
+            this.button4.TabIndex = 3;
+            this.button4.Tag = "  Nöbetci Girişi";
+            this.button4.Text = "  Text";
+            this.button4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button4.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.button4.UseVisualStyleBackColor = true;
+            // 
+            // button3
+            // 
+            this.button3.Dock = System.Windows.Forms.DockStyle.Top;
+            this.button3.FlatAppearance.BorderSize = 0;
+            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button3.Font = new System.Drawing.Font("Verdana", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.button3.Image = global::HelpDeskAi.Properties.Resources.output_onlinepngtools__1_;
+            this.button3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button3.Location = new System.Drawing.Point(0, 100);
+            this.button3.Name = "button3";
+            this.button3.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
+            this.button3.Size = new System.Drawing.Size(230, 40);
+            this.button3.TabIndex = 2;
+            this.button3.Tag = "  İdare Görüşme";
+            this.button3.Text = "  Text";
+            this.button3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button3.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.button3.UseVisualStyleBackColor = true;
+            // 
+            // button2
+            // 
+            this.button2.Dock = System.Windows.Forms.DockStyle.Top;
+            this.button2.FlatAppearance.BorderSize = 0;
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button2.Font = new System.Drawing.Font("Verdana", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.button2.Image = global::HelpDeskAi.Properties.Resources.output_onlinepngtools__1_;
+            this.button2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button2.Location = new System.Drawing.Point(0, 60);
+            this.button2.Name = "button2";
+            this.button2.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
+            this.button2.Size = new System.Drawing.Size(230, 40);
+            this.button2.TabIndex = 1;
+            this.button2.Tag = "  Öğretmen Görüşmesi";
+            this.button2.Text = "  Text";
+            this.button2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button2.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.button2.UseVisualStyleBackColor = true;
+            // 
+            // panel1
+            // 
+            this.panel1.Controls.Add(this.button1);
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(230, 60);
+            this.panel1.TabIndex = 0;
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.Transparent;
+            this.button1.FlatAppearance.BorderSize = 0;
+            this.button1.ForeColor = System.Drawing.Color.Transparent;
+            this.button1.Image = global::HelpDeskAi.Properties.Resources.Dropdown3line;
+            this.button1.Location = new System.Drawing.Point(12, 17);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(32, 32);
+            this.button1.TabIndex = 2;
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // panelTitleBar
+            // 
+            this.panelTitleBar.BackColor = System.Drawing.Color.White;
+            this.panelTitleBar.Controls.Add(this.textBox1);
+            this.panelTitleBar.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panelTitleBar.Location = new System.Drawing.Point(230, 0);
+            this.panelTitleBar.Name = "panelTitleBar";
+            this.panelTitleBar.Size = new System.Drawing.Size(570, 60);
+            this.panelTitleBar.TabIndex = 1;
+            this.panelTitleBar.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panelTitleBar_MouseDown_1);
+            // 
             // textBox1
             // 
             this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
@@ -271,6 +261,16 @@
             this.textBox1.Size = new System.Drawing.Size(110, 30);
             this.textBox1.TabIndex = 4;
             this.textBox1.Text = "Dashboard";
+            // 
+            // panelDesktop
+            // 
+            this.panelDesktop.BackColor = System.Drawing.SystemColors.Control;
+            this.panelDesktop.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panelDesktop.Location = new System.Drawing.Point(230, 60);
+            this.panelDesktop.Name = "panelDesktop";
+            this.panelDesktop.Size = new System.Drawing.Size(570, 390);
+            this.panelDesktop.TabIndex = 2;
+            this.panelDesktop.Paint += new System.Windows.Forms.PaintEventHandler(this.panelDesktop_Paint);
             // 
             // Form2
             // 
@@ -284,9 +284,9 @@
             this.Text = "Form2";
             this.Load += new System.EventHandler(this.Form2_Load);
             this.panelMenu.ResumeLayout(false);
+            this.panel1.ResumeLayout(false);
             this.panelTitleBar.ResumeLayout(false);
             this.panelTitleBar.PerformLayout();
-            this.panel1.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
