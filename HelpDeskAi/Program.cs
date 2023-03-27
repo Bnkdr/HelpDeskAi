@@ -20,6 +20,7 @@ namespace HelpDeskAi
             //eray ve taha 2 bişey YETER
             //deli
             //X
+            //deneme
         }  
     }
 }
