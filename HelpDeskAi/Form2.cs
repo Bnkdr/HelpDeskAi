@@ -14,6 +14,7 @@ namespace HelpDeskAi
     public partial class Form2 : Form
     {
         //Fields
+        private Boolean iscollapsed;
         private int borderSize = 2;
         private Size formSize; //Keep form size when it is minimized and restored.Since the form is resized because it takes into account the size of the title bar and borders.
                                //Constructor
@@ -58,7 +59,7 @@ namespace HelpDeskAi
         if (this.panelMenu.Width > 200) //Collapse menu
         {
             panelMenu.Width = 75;
-
+            iscollapsed = true;
             panelMenu.Dock = DockStyle.Left;
             foreach (Button menuButton in panelMenu.Controls.OfType<Button>())
             {
@@ -69,6 +70,7 @@ namespace HelpDeskAi
         }
         else
         { //Expand menu
+            iscollapsed = false;
             panelMenu.Width = 230;
 
             panelMenu.Dock = DockStyle.Left;
@@ -91,65 +93,216 @@ namespace HelpDeskAi
 
         private void button2_Click(object sender, EventArgs e)
         {
-            Form3 form3 = new Form3();
-            form3.Show();
-            this.Hide();
+            if (iscollapsed)
+            {
+                iscollapsed = false;
+                panelMenu.Width = 230;
+
+                panelMenu.Dock = DockStyle.Left;
+                foreach (Button menuButton in panelMenu.Controls.OfType<Button>())
+                {
+                    menuButton.Text = "  " + menuButton.Tag.ToString();
+                    menuButton.ImageAlign = ContentAlignment.MiddleLeft;
+                    menuButton.Padding = new Padding(10, 0, 0, 0);
+                }
+            }
+            else {
+                Form3 form3 = new Form3();
+                form3.Show();
+                this.Hide();
+            }
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-            Form4 form4 = new Form4();
-            form4.Show();
-            this.Hide();
+            if (iscollapsed)
+            {
+                iscollapsed = false;
+                panelMenu.Width = 230;
+
+                panelMenu.Dock = DockStyle.Left;
+                foreach (Button menuButton in panelMenu.Controls.OfType<Button>())
+                {
+                    menuButton.Text = "  " + menuButton.Tag.ToString();
+                    menuButton.ImageAlign = ContentAlignment.MiddleLeft;
+                    menuButton.Padding = new Padding(10, 0, 0, 0);
+                }
+            }
+            else
+            {
+                Form4 form4 = new Form4();
+                form4.Show();
+                this.Hide();
+            }
+           
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
-            Form5 form5 = new Form5();
-            form5.Show();
-            this.Hide();
+            if (iscollapsed)
+            {
+                iscollapsed = false;
+                panelMenu.Width = 230;
+
+                panelMenu.Dock = DockStyle.Left;
+                foreach (Button menuButton in panelMenu.Controls.OfType<Button>())
+                {
+                    menuButton.Text = "  " + menuButton.Tag.ToString();
+                    menuButton.ImageAlign = ContentAlignment.MiddleLeft;
+                    menuButton.Padding = new Padding(10, 0, 0, 0);
+                }
+            }
+            else
+            {
+                Form5 form5 = new Form5();
+                form5.Show();
+                this.Hide();
+            }
+           
         }
 
         private void button5_Click(object sender, EventArgs e)
         {
-            Form6 form6 = new Form6();
-            form6.Show();
-            this.Hide();
+            if (iscollapsed)
+            {
+                iscollapsed = false;
+                panelMenu.Width = 230;
+
+                panelMenu.Dock = DockStyle.Left;
+                foreach (Button menuButton in panelMenu.Controls.OfType<Button>())
+                {
+                    menuButton.Text = "  " + menuButton.Tag.ToString();
+                    menuButton.ImageAlign = ContentAlignment.MiddleLeft;
+                    menuButton.Padding = new Padding(10, 0, 0, 0);
+                }
+            }
+            else
+            {
+                Form6 form6 = new Form6();
+                form6.Show();
+                this.Hide();
+            }
+         
         }
 
         private void button6_Click(object sender, EventArgs e)
         {
-            Form7 form7 = new Form7();
-            form7.Show();
-            this.Hide();
+            if (iscollapsed)
+            {
+                iscollapsed = false;
+                panelMenu.Width = 230;
+
+                panelMenu.Dock = DockStyle.Left;
+                foreach (Button menuButton in panelMenu.Controls.OfType<Button>())
+                {
+                    menuButton.Text = "  " + menuButton.Tag.ToString();
+                    menuButton.ImageAlign = ContentAlignment.MiddleLeft;
+                    menuButton.Padding = new Padding(10, 0, 0, 0);
+                }
+            }
+            else
+            {
+                Form7 form7 = new Form7();
+                form7.Show();
+                this.Hide();
+            }
+         
         }
 
         private void button7_Click(object sender, EventArgs e)
         {
-            Form8 form8 = new Form8();
-            form8.Show();
-            this.Hide();
+            if (iscollapsed)
+            {
+                iscollapsed = false;
+                panelMenu.Width = 230;
+
+                panelMenu.Dock = DockStyle.Left;
+                foreach (Button menuButton in panelMenu.Controls.OfType<Button>())
+                {
+                    menuButton.Text = "  " + menuButton.Tag.ToString();
+                    menuButton.ImageAlign = ContentAlignment.MiddleLeft;
+                    menuButton.Padding = new Padding(10, 0, 0, 0);
+                }
+            }
+            else
+            {
+                Form8 form8 = new Form8();
+                form8.Show();
+                this.Hide();
+            }
+          
         }
 
         private void button8_Click(object sender, EventArgs e)
         {
-            Form9 form9 = new Form9();
-            form9.Show();
-            this.Hide();
+            if (iscollapsed)
+            {
+                iscollapsed = false;
+                panelMenu.Width = 230;
+
+                panelMenu.Dock = DockStyle.Left;
+                foreach (Button menuButton in panelMenu.Controls.OfType<Button>())
+                {
+                    menuButton.Text = "  " + menuButton.Tag.ToString();
+                    menuButton.ImageAlign = ContentAlignment.MiddleLeft;
+                    menuButton.Padding = new Padding(10, 0, 0, 0);
+                }
+            }
+            else
+            {
+                Form9 form9 = new Form9();
+                form9.Show();
+                this.Hide();
+            }
+            
         }
 
         private void button10_Click_1(object sender, EventArgs e)
         {
-            Form10 form10 = new Form10();
-            form10.Show();
-            this.Hide();
+            if (iscollapsed)
+            {
+                iscollapsed = false;
+                panelMenu.Width = 230;
+
+                panelMenu.Dock = DockStyle.Left;
+                foreach (Button menuButton in panelMenu.Controls.OfType<Button>())
+                {
+                    menuButton.Text = "  " + menuButton.Tag.ToString();
+                    menuButton.ImageAlign = ContentAlignment.MiddleLeft;
+                    menuButton.Padding = new Padding(10, 0, 0, 0);
+                }
+            }
+            else
+            {
+                Form10 form10 = new Form10();
+                form10.Show();
+                this.Hide();
+            }
+           
         }
 
         private void button11_Click(object sender, EventArgs e)
         {
-            Form2 form2 = new Form2();
-            form2.Show();
-            this.Hide();
+            if (iscollapsed)
+            {
+                iscollapsed = false;
+                panelMenu.Width = 230;
+
+                panelMenu.Dock = DockStyle.Left;
+                foreach (Button menuButton in panelMenu.Controls.OfType<Button>())
+                {
+                    menuButton.Text = "  " + menuButton.Tag.ToString();
+                    menuButton.ImageAlign = ContentAlignment.MiddleLeft;
+                    menuButton.Padding = new Padding(10, 0, 0, 0);
+                }
+            }
+            else
+            {
+                Form2 form2 = new Form2();
+                form2.Show();
+                this.Hide();
+            }
+           
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)
