@@ -11,13 +11,13 @@ using System.Runtime.InteropServices;
 
 namespace HelpDeskAi
 {
-    public partial class Form5 : Form
+    public partial class Form42 : Form
     {
         //Fields
         private int borderSize = 2;
         private Size formSize; //Keep form size when it is minimized and restored.Since the form is resized because it takes into account the size of the title bar and borders.
                                //Constructor
-        public Form5()
+        public Form42()
         {
             InitializeComponent();
             CollapseMenu();
@@ -31,7 +31,7 @@ namespace HelpDeskAi
         }
 
 
-        private void Form5_Load(object sender, EventArgs e)
+        private void Form42_Load(object sender, EventArgs e)
         {
             formSize = this.ClientSize;
         }
@@ -102,7 +102,12 @@ namespace HelpDeskAi
         }
 
 
-       
+        private void button11_Click_1(object sender, EventArgs e)
+        {
+            Form2 form2 = new Form2();
+            form2.Show();
+            this.Hide();
+        }
 
         private void button2_Click(object sender, EventArgs e)
         {
@@ -167,121 +172,7 @@ namespace HelpDeskAi
             this.Hide();
         }
 
-        private void textBox3_TextChanged(object sender, EventArgs e)
-        {
 
-        }
-
-        private void textBox2_TextChanged(object sender, EventArgs e)
-        {
-            string nöbetciad = textBox2.Text;
-            textBox9.Text = nöbetciad;
-        }
-
-        private void textBox6_TextChanged(object sender, EventArgs e)
-        {
-            string nöbetcisoyad = textBox6.Text;
-            textBox10.Text = nöbetcisoyad;
-        }
-
-        private void textBox7_TextChanged(object sender, EventArgs e)
-        {
-            string nöbetcinum = textBox7.Text;
-            textBox11.Text = nöbetcinum;
-        }
-
-        private void textBox11_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox9_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox10_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox12_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void comboBox1_SelectedIndexChanged_1(object sender, EventArgs e)
-        {
-            if (this.comboBox1.SelectedIndex == 0)
-            {
-                textBox12.Text = "9/A";
-            }
-            else if (this.comboBox1.SelectedIndex == 1)
-            {
-                textBox12.Text = "9/B";
-            }
-            else if (this.comboBox1.SelectedIndex == 2)
-            {
-                textBox12.Text = "9/C";
-            }
-            else if (this.comboBox1.SelectedIndex == 3)
-            {
-                textBox12.Text = "9/D";
-            }
-            else if (this.comboBox1.SelectedIndex == 4)
-            {
-                textBox12.Text = "10/A";
-            }
-            else if (this.comboBox1.SelectedIndex == 5)
-            {
-                textBox12.Text = "10/B";
-            }
-            else if (this.comboBox1.SelectedIndex == 6)
-            {
-                textBox12.Text = "10/C";
-            }
-            else if (this.comboBox1.SelectedIndex == 7)
-            {
-                textBox12.Text = "10/D";
-            }
-            else if (this.comboBox1.SelectedIndex == 8)
-            {
-                textBox12.Text = "11/A";
-            }
-            else if (this.comboBox1.SelectedIndex == 9)
-            {
-                textBox12.Text = "11/B";
-            }
-            else if (this.comboBox1.SelectedIndex == 10)
-            {
-                textBox12.Text = "11/C";
-            }
-            else if (this.comboBox1.SelectedIndex == 11)
-            {
-                textBox12.Text = "11/D";
-            }
-            else if (this.comboBox1.SelectedIndex == 12)
-            {
-                textBox12.Text = "12/A";
-            }
-            else if (this.comboBox1.SelectedIndex == 13)
-            {
-                textBox12.Text = "12/B";
-            }
-            else if (this.comboBox1.SelectedIndex == 14)
-            {
-                textBox12.Text = "12/C";
-            }
-            else if (this.comboBox1.SelectedIndex == 15)
-            {
-                textBox12.Text = "12/D";
-            }
-        }
-
-        private void button12_Click_1(object sender, EventArgs e)
-        {
-            textBox13.Text = "Veriler Kaydedildi";
-        }
 
         private void textBox13_TextChanged(object sender, EventArgs e)
         {
@@ -293,7 +184,41 @@ namespace HelpDeskAi
 
         }
 
-        private void textBox5_TextChanged(object sender, EventArgs e)
+        private void textBox2_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox3_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void checkBox1_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void checkBox2_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button12_Click_2(object sender, EventArgs e)
+        {
+            Form41 form41 = new Form41();
+            form41.Show();
+            this.Hide();
+        }
+
+        private void button13_Click(object sender, EventArgs e)
+        {
+            Form4 form4 = new Form4();
+            form4.Show();
+            this.Hide();
+        }
+
+        private void textBox2_TextChanged_1(object sender, EventArgs e)
         {
 
         }

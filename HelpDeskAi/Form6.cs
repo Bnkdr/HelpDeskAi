@@ -166,6 +166,24 @@ namespace HelpDeskAi
             form2.Show();
             this.Hide();
         }
+
+        private void textBox2_TextChanged(object sender, EventArgs e)
+        {
+            string nöbetciad = textBox2.Text;
+            textBox9.Text = nöbetciad;
+        }
+
+        private void textBox6_TextChanged(object sender, EventArgs e)
+        {
+            string nöbetcisoyad = textBox6.Text;
+            textBox10.Text = nöbetcisoyad;
+        }
+
+        private void textBox7_TextChanged(object sender, EventArgs e)
+        {
+            string nöbetcinum = textBox7.Text;
+            textBox11.Text = nöbetcinum;
+        }
     }
     
 }

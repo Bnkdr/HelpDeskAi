@@ -174,7 +174,9 @@ namespace HelpDeskAi
 
         private void button12_Click_1(object sender, EventArgs e)
         {
-            textBox13.Text = "Sebebiniz Gönderildi Ve En Kısa Zamanda İncelenecek";
+            Form42 form42 = new Form42();
+            form42.Show();
+            this.Hide();
         }
 
         private void textBox13_TextChanged(object sender, EventArgs e)
