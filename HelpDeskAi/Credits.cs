@@ -27,7 +27,7 @@ namespace HelpDeskAi
             this.Text = String.Format("{0} Hakkında", AssemblyTitle);
             this.labelProductName.Text = AssemblyProduct;
             this.labelVersion.Text = String.Format("Sürüm {0}", AssemblyVersion);
-            this.labelCopyright.Text = AssemblyCopyright;
+            this.okButton.Text = AssemblyCopyright;
             this.labelCompanyName.Text = AssemblyCompany;
             this.textBoxDescription.Text = AssemblyDescription;
         }
@@ -237,6 +237,11 @@ namespace HelpDeskAi
             }
         }
         #endregion
+
+        private void tableLayoutPanel_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 
 }
