@@ -11,13 +11,13 @@ using System.Runtime.InteropServices;
 
 namespace HelpDeskAi
 {
-    public partial class Form2 : Form
+    public partial class EasterEgg : Form
     {
         //Fields
         private int borderSize = 2;
         private Size formSize; //Keep form size when it is minimized and restored.Since the form is resized because it takes into account the size of the title bar and borders.
                                //Constructor
-        public Form2()
+        public EasterEgg()
         {
             InitializeComponent();
             CollapseMenu();
@@ -26,7 +26,7 @@ namespace HelpDeskAi
         }
        
 
-        private void Form2_Load(object sender, EventArgs e)
+        private void EasterEgg_Load(object sender, EventArgs e)
         {
             formSize = this.ClientSize;
         }

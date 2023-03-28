@@ -58,6 +58,12 @@
     <Compile Include="Credits.Designer.cs">
       <DependentUpon>Credits.cs</DependentUpon>
     </Compile>
+    <Compile Include="EasterEgg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EasterEgg.Designer.cs">
+      <DependentUpon>EasterEgg.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form9.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -113,6 +119,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Credits.resx">
       <DependentUpon>Credits.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EasterEgg.resx">
+      <DependentUpon>EasterEgg.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form9.resx">
       <DependentUpon>Form9.cs</DependentUpon>
@@ -184,6 +193,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\output-onlinepngtools %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Okul.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

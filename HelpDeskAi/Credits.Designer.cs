@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Credits));
             this.panelMenu = new System.Windows.Forms.Panel();
             this.button10 = new System.Windows.Forms.Button();
             this.button9 = new System.Windows.Forms.Button();
@@ -318,7 +319,7 @@
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(110, 30);
             this.textBox1.TabIndex = 4;
-            this.textBox1.Text = "Dashboard";
+            this.textBox1.Text = "Hakkında";
             // 
             // panelDesktop
             // 
@@ -430,7 +431,7 @@
             this.textBoxDescription.Size = new System.Drawing.Size(373, 189);
             this.textBoxDescription.TabIndex = 23;
             this.textBoxDescription.TabStop = false;
-            this.textBoxDescription.Text = "Açıklama";
+            this.textBoxDescription.Text = resources.GetString("textBoxDescription.Text");
             // 
             // okButton
             // 
@@ -445,6 +446,7 @@
             this.okButton.TabIndex = 24;
             this.okButton.Text = "Text";
             this.okButton.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.okButton.Click += new System.EventHandler(this.okButton_Click);
             // 
             // Credits
             // 

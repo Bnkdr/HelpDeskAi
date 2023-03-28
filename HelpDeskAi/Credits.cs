@@ -242,6 +242,13 @@ namespace HelpDeskAi
         {
 
         }
+
+        private void okButton_Click(object sender, EventArgs e)
+        {
+            EasterEgg easterEgg = new EasterEgg();
+            easterEgg.Show();
+            this.Hide();
+        }
     }
 
 }
