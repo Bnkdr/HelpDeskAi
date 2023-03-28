@@ -29,7 +29,7 @@ namespace HelpDeskAi
             this.labelVersion.Text = String.Format("Sürüm {0}", AssemblyVersion);
             this.okButton.Text = AssemblyCopyright;
             this.labelCompanyName.Text = AssemblyCompany;
-            this.textBoxDescription.Text = AssemblyDescription;
+            //this.textBoxDescription.Text = AssemblyDescription;
         }
        
 

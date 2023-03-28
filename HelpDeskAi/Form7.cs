@@ -23,6 +23,7 @@ namespace HelpDeskAi
             CollapseMenu();
             this.Padding = new Padding(borderSize);//Border size
             this.BackColor = Color.FromArgb(98, 102, 244);//Border color
+
         }
        
         private void panelTitleBar_MouseDown(object sender, MouseEventArgs e)
@@ -165,6 +166,87 @@ namespace HelpDeskAi
             Form2 form2 = new Form2();
             form2.Show();
             this.Hide();
+
+
+        }
+
+        private void textBox2_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (this.comboBox1.SelectedIndex == 0)
+            {
+                textBox3.Text = "9/A";
+            }
+            else if (this.comboBox1.SelectedIndex == 1)
+            {
+                textBox3.Text = "9/B";
+            }
+            else if (this.comboBox1.SelectedIndex == 2)
+            {
+                textBox3.Text = "9/C";
+            }
+            else if (this.comboBox1.SelectedIndex == 3)
+            {
+                textBox3.Text = "9/D";
+            }
+            else if (this.comboBox1.SelectedIndex == 4)
+            {
+                textBox3.Text = "10/A";
+            }
+            else if (this.comboBox1.SelectedIndex == 5)
+            {
+                textBox3.Text = "10/B";
+            }
+            else if (this.comboBox1.SelectedIndex == 6)
+            {
+                textBox3.Text = "10/C";
+            }
+            else if (this.comboBox1.SelectedIndex == 7)
+            {
+                textBox3.Text = "10/D";
+            }
+            else if (this.comboBox1.SelectedIndex == 8)
+            {
+                textBox3.Text = "11/A";
+            }
+            else if (this.comboBox1.SelectedIndex == 9)
+            {
+                textBox3.Text = "11/B";
+            }
+            else if (this.comboBox1.SelectedIndex == 10)
+            {
+                textBox3.Text = "11/C";
+            }
+            else if (this.comboBox1.SelectedIndex == 11)
+            {
+                textBox3.Text = "11/D";
+            }
+            else if (this.comboBox1.SelectedIndex == 12)
+            {
+                textBox3.Text = "12/A";
+            }
+            else if (this.comboBox1.SelectedIndex == 13)
+            {
+                textBox3.Text = "12/B";
+            }
+            else if (this.comboBox1.SelectedIndex == 14)
+            {
+                textBox3.Text = "12/C";
+            }
+            else if (this.comboBox1.SelectedIndex == 15)
+            {
+                textBox3.Text = "12/D";
+            }
+
+        }
+
+        private void textBox3_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
     
