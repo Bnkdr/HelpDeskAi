@@ -25,11 +25,6 @@ namespace HelpDeskAi
             this.BackColor = Color.FromArgb(98, 102, 244);//Border color
         }
        
-        private void panelTitleBar_MouseDown(object sender, MouseEventArgs e)
-        {
-
-        }
-
 
         private void Form2_Load(object sender, EventArgs e)
         {
@@ -46,16 +41,6 @@ namespace HelpDeskAi
             Credits credits = new Credits();
             credits.Show();
             this.Hide();
-        }
-
-        private void button12_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button10_Click(object sender, EventArgs e)
-        {
-
         }
 
         private void panelTitleBar_MouseDown_1(object sender, MouseEventArgs e)

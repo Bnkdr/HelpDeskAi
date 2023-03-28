@@ -164,6 +164,13 @@ namespace HelpDeskAi
             form10.Show();
             this.Hide();
         }
+
+        private void button11_Click(object sender, EventArgs e)
+        {
+            Form2 form2 = new Form2();
+            form2.Show();
+            this.Hide();
+        }
     }
     
 }
