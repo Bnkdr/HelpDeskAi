@@ -315,9 +315,9 @@
             this.textBox1.Font = new System.Drawing.Font("Bauhaus 93", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.textBox1.Location = new System.Drawing.Point(6, 19);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(110, 30);
+            this.textBox1.Size = new System.Drawing.Size(140, 30);
             this.textBox1.TabIndex = 4;
-            this.textBox1.Text = "Dashboard";
+            this.textBox1.Text = "Ziyaretçi Girişi";
             // 
             // panelDesktop
             // 

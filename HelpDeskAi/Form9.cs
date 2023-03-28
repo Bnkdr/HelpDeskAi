@@ -166,6 +166,17 @@ namespace HelpDeskAi
             form2.Show();
             this.Hide();
         }
+
+        private void dateTimePicker1_ValueChanged(object sender, EventArgs e)
+        {
+
+
+        }
+
+        private void textBox2_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
     
 }
