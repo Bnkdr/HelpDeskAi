@@ -11,13 +11,13 @@ using System.Runtime.InteropServices;
 
 namespace HelpDeskAi
 {
-    public partial class Form3 : Form
+    public partial class Form31 : Form
     {
         //Fields
         private int borderSize = 2;
         private Size formSize; //Keep form size when it is minimized and restored.Since the form is resized because it takes into account the size of the title bar and borders.
                                //Constructor
-        public Form3()
+        public Form31()
         {
             InitializeComponent();
             CollapseMenu();
@@ -31,7 +31,7 @@ namespace HelpDeskAi
         }
 
 
-        private void Form3_Load(object sender, EventArgs e)
+        private void Form31_Load(object sender, EventArgs e)
         {
             formSize = this.ClientSize;
         }
@@ -174,16 +174,12 @@ namespace HelpDeskAi
 
 
 
+
         private void button12_Click_2(object sender, EventArgs e)
         {
-            Form31 form31 = new Form31();
-            form31.Show();
+            Form3 form3 = new Form3();
+            form3.Show();
             this.Hide();
-        }
-
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-
         }
     }
     

@@ -1,6 +1,6 @@
 ﻿namespace HelpDeskAi
 {
-    partial class Form4
+    partial class Form31
     {
         /// <summary>
         /// Required designer variable.
@@ -44,10 +44,10 @@
             this.panelTitleBar = new System.Windows.Forms.Panel();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.panelDesktop = new System.Windows.Forms.Panel();
-            this.textBox13 = new System.Windows.Forms.TextBox();
             this.button12 = new System.Windows.Forms.Button();
-            this.textBox4 = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
+            this.checkBox1 = new System.Windows.Forms.CheckBox();
+            this.checkBox2 = new System.Windows.Forms.CheckBox();
             this.panelMenu.SuspendLayout();
             this.panel1.SuspendLayout();
             this.panelTitleBar.SuspendLayout();
@@ -310,16 +310,16 @@
             this.textBox1.Font = new System.Drawing.Font("Bauhaus 93", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.textBox1.Location = new System.Drawing.Point(6, 19);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(138, 30);
+            this.textBox1.Size = new System.Drawing.Size(208, 30);
             this.textBox1.TabIndex = 4;
-            this.textBox1.Text = "İdari Görüşme";
+            this.textBox1.Text = "Öğretmen Görüşmesi";
             // 
             // panelDesktop
             // 
             this.panelDesktop.BackColor = System.Drawing.SystemColors.Control;
-            this.panelDesktop.Controls.Add(this.textBox13);
+            this.panelDesktop.Controls.Add(this.checkBox2);
+            this.panelDesktop.Controls.Add(this.checkBox1);
             this.panelDesktop.Controls.Add(this.button12);
-            this.panelDesktop.Controls.Add(this.textBox4);
             this.panelDesktop.Controls.Add(this.textBox2);
             this.panelDesktop.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelDesktop.Location = new System.Drawing.Point(230, 60);
@@ -328,52 +328,52 @@
             this.panelDesktop.TabIndex = 2;
             this.panelDesktop.Paint += new System.Windows.Forms.PaintEventHandler(this.panelDesktop_Paint);
             // 
-            // textBox13
-            // 
-            this.textBox13.BackColor = System.Drawing.SystemColors.Control;
-            this.textBox13.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox13.Font = new System.Drawing.Font("Verdana", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.textBox13.Location = new System.Drawing.Point(155, 331);
-            this.textBox13.Name = "textBox13";
-            this.textBox13.ReadOnly = true;
-            this.textBox13.Size = new System.Drawing.Size(403, 17);
-            this.textBox13.TabIndex = 15;
-            this.textBox13.TextChanged += new System.EventHandler(this.textBox13_TextChanged);
-            // 
             // button12
             // 
             this.button12.Location = new System.Drawing.Point(483, 354);
             this.button12.Name = "button12";
             this.button12.Size = new System.Drawing.Size(75, 23);
-            this.button12.TabIndex = 11;
-            this.button12.Text = "Onayla";
+            this.button12.TabIndex = 15;
+            this.button12.Text = "Geri";
             this.button12.UseVisualStyleBackColor = true;
-            this.button12.Click += new System.EventHandler(this.button12_Click_1);
-            // 
-            // textBox4
-            // 
-            this.textBox4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox4.Font = new System.Drawing.Font("Verdana", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.textBox4.Location = new System.Drawing.Point(19, 63);
-            this.textBox4.Multiline = true;
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(525, 243);
-            this.textBox4.TabIndex = 10;
-            this.textBox4.TextChanged += new System.EventHandler(this.textBox4_TextChanged);
+            this.button12.Click += new System.EventHandler(this.button12_Click_2);
             // 
             // textBox2
             // 
+            this.textBox2.BackColor = System.Drawing.SystemColors.Control;
             this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox2.Font = new System.Drawing.Font("Verdana", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.textBox2.Location = new System.Drawing.Point(19, 15);
+            this.textBox2.Font = new System.Drawing.Font("Bauhaus 93", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.textBox2.Location = new System.Drawing.Point(18, 14);
             this.textBox2.Name = "textBox2";
-            this.textBox2.ReadOnly = true;
-            this.textBox2.Size = new System.Drawing.Size(266, 25);
-            this.textBox2.TabIndex = 0;
-            this.textBox2.Text = "Geliş Sebebinizi Yazınız";
-            this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
+            this.textBox2.Size = new System.Drawing.Size(262, 20);
+            this.textBox2.TabIndex = 5;
+            this.textBox2.Text = "Seçtiğiniz Öğretmenin Müsaitlik Durumu";
             // 
-            // Form4
+            // checkBox1
+            // 
+            this.checkBox1.AutoCheck = false;
+            this.checkBox1.AutoSize = true;
+            this.checkBox1.Checked = true;
+            this.checkBox1.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.checkBox1.Location = new System.Drawing.Point(18, 41);
+            this.checkBox1.Name = "checkBox1";
+            this.checkBox1.Size = new System.Drawing.Size(57, 17);
+            this.checkBox1.TabIndex = 16;
+            this.checkBox1.Text = "Müsait";
+            this.checkBox1.UseVisualStyleBackColor = true;
+            // 
+            // checkBox2
+            // 
+            this.checkBox2.AutoCheck = false;
+            this.checkBox2.AutoSize = true;
+            this.checkBox2.Location = new System.Drawing.Point(18, 64);
+            this.checkBox2.Name = "checkBox2";
+            this.checkBox2.Size = new System.Drawing.Size(82, 17);
+            this.checkBox2.TabIndex = 17;
+            this.checkBox2.Text = "Müsait değil";
+            this.checkBox2.UseVisualStyleBackColor = true;
+            // 
+            // Form31
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -381,9 +381,9 @@
             this.Controls.Add(this.panelDesktop);
             this.Controls.Add(this.panelTitleBar);
             this.Controls.Add(this.panelMenu);
-            this.Name = "Form4";
-            this.Text = "Form4";
-            this.Load += new System.EventHandler(this.Form4_Load);
+            this.Name = "Form31";
+            this.Text = "Form31";
+            this.Load += new System.EventHandler(this.Form31_Load);
             this.panelMenu.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
             this.panelTitleBar.ResumeLayout(false);
@@ -413,8 +413,8 @@
         private System.Windows.Forms.Button button10;
         private System.Windows.Forms.Button button11;
         private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox4;
         private System.Windows.Forms.Button button12;
-        private System.Windows.Forms.TextBox textBox13;
+        private System.Windows.Forms.CheckBox checkBox2;
+        private System.Windows.Forms.CheckBox checkBox1;
     }
 }
