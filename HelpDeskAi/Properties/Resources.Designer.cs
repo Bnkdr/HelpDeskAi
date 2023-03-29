@@ -63,6 +63,16 @@ namespace HelpDeskAi.Properties {
         /// <summary>
         ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
         /// </summary>
+        internal static System.Drawing.Bitmap cart2 {
+            get {
+                object obj = ResourceManager.GetObject("cart2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
+        /// </summary>
         internal static System.Drawing.Bitmap dropdown {
             get {
                 object obj = ResourceManager.GetObject("dropdown", resourceCulture);
