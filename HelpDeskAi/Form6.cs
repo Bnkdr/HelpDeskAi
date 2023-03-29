@@ -14,7 +14,8 @@ namespace HelpDeskAi
     public partial class Form6 : Form
     {
         //Fields
-        string key = "3169";
+        private Form51 my_context;
+        private int key;
         private int borderSize = 2;
         private Size formSize; //Keep form size when it is minimized and restored.Since the form is resized because it takes into account the size of the title bar and borders.
         //Constructor
@@ -35,6 +36,7 @@ namespace HelpDeskAi
 
         private void Form6_Load(object sender, EventArgs e)
         {
+            my_context = new Form51();
             formSize = this.ClientSize;
         }
 
@@ -162,17 +164,20 @@ namespace HelpDeskAi
 
         private void textBox14_TextChanged(object sender, EventArgs e)
         {;
-            if (textBox14.Text == key)
-            {
-                button12.Visible = true;
-            }
+         
         }
 
         private void button12_Click(object sender, EventArgs e)
         {
-            Form61 form61 = new Form61();
-            form61.Show();
-            this.Hide();
+            String keyString = Convert.ToString(key);
+            String textInput = textBox14.Text.ToLower();
+            if (textInput.Equals(keyString)){
+                Form61 form61 = new Form61();
+                form61.Show();
+                this.Hide();
+            }else{ MessageBox.Show("Hatalı Şifre Erişim engellendi"+" "+keyString+" "+textInput, "error"); 
+            }
+           
         }
 
         private void checkBox1_CheckedChanged(object sender, EventArgs e)

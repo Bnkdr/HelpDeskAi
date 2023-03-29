@@ -307,10 +307,10 @@
             // textBox1
             // 
             this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox1.Font = new System.Drawing.Font("Bauhaus 93", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.textBox1.Location = new System.Drawing.Point(6, 19);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(140, 30);
+            this.textBox1.Size = new System.Drawing.Size(140, 23);
             this.textBox1.TabIndex = 4;
             this.textBox1.Text = "Ziyaretçi Girişi";
             // 
@@ -343,10 +343,10 @@
             // 
             this.textBox14.BackColor = System.Drawing.Color.White;
             this.textBox14.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox14.Font = new System.Drawing.Font("Bauhaus 93", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.textBox14.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.textBox14.Location = new System.Drawing.Point(14, 49);
             this.textBox14.Name = "textBox14";
-            this.textBox14.Size = new System.Drawing.Size(163, 37);
+            this.textBox14.Size = new System.Drawing.Size(163, 30);
             this.textBox14.TabIndex = 18;
             this.textBox14.UseSystemPasswordChar = true;
             this.textBox14.TextChanged += new System.EventHandler(this.textBox14_TextChanged);
@@ -357,9 +357,9 @@
             this.label1.Font = new System.Drawing.Font("Verdana", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label1.Location = new System.Drawing.Point(9, 14);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(347, 25);
+            this.label1.Size = new System.Drawing.Size(344, 25);
             this.label1.TabIndex = 17;
-            this.label1.Text = "Lütfen Yapımcı Key\'inizi girin.";
+            this.label1.Text = "Lütfen Nöbetçi Key\'inizi girin.";
             // 
             // button12
             // 
@@ -369,7 +369,6 @@
             this.button12.TabIndex = 16;
             this.button12.Text = "Onayla";
             this.button12.UseVisualStyleBackColor = true;
-            this.button12.Visible = false;
             this.button12.Click += new System.EventHandler(this.button12_Click);
             // 
             // Form6
