@@ -16,6 +16,8 @@ namespace HelpDeskAi
         //Fields
         string key = "3169";
         private int borderSize = 2;
+        public int key1 = random.Next(1,3);
+        static Random random = new Random();
         private Size formSize; //Keep form size when it is minimized and restored.Since the form is resized because it takes into account the size of the title bar and borders.
                                //Constructor
         public Form51()
@@ -35,6 +37,7 @@ namespace HelpDeskAi
         private void Form51_Load(object sender, EventArgs e)
         {
             formSize = this.ClientSize;
+
         }
 
         private void panelDesktop_Paint(object sender, PaintEventArgs e)
@@ -170,7 +173,9 @@ namespace HelpDeskAi
 
         private void button12_Click_1(object sender, EventArgs e)
         {
+
             textBox13.Text = "Veriler Kaydedildi";
+            textBox14.Text = (Convert.ToString(key1));
         }
 
         private void textBox13_TextChanged(object sender, EventArgs e)
@@ -272,6 +277,11 @@ namespace HelpDeskAi
         {
             string nöbetcinum = textBox7.Text;
             textBox11.Text = nöbetcinum;
+        }
+
+        private void textBox14_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
     

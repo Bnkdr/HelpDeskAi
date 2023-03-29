@@ -14,6 +14,7 @@ namespace HelpDeskAi
     public partial class Form6 : Form
     {
         //Fields
+        string key = "3169";
         private int borderSize = 2;
         private Size formSize; //Keep form size when it is minimized and restored.Since the form is resized because it takes into account the size of the title bar and borders.
         //Constructor
@@ -49,15 +50,6 @@ namespace HelpDeskAi
             this.Hide();
         }
 
-        private void button12_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button10_Click(object sender, EventArgs e)
-        {
-
-        }
 
         private void panelTitleBar_MouseDown_1(object sender, MouseEventArgs e)
         {
@@ -168,22 +160,31 @@ namespace HelpDeskAi
             this.Hide();
         }
 
-        private void textBox2_TextChanged(object sender, EventArgs e)
-        {
-            string nöbetciad = textBox2.Text;
-            textBox9.Text = nöbetciad;
+        private void textBox14_TextChanged(object sender, EventArgs e)
+        {;
+            if (textBox14.Text == key)
+            {
+                button12.Visible = true;
+            }
         }
 
-        private void textBox6_TextChanged(object sender, EventArgs e)
+        private void button12_Click(object sender, EventArgs e)
         {
-            string nöbetcisoyad = textBox6.Text;
-            textBox10.Text = nöbetcisoyad;
+            Form61 form61 = new Form61();
+            form61.Show();
+            this.Hide();
         }
 
-        private void textBox7_TextChanged(object sender, EventArgs e)
+        private void checkBox1_CheckedChanged(object sender, EventArgs e)
         {
-            string nöbetcinum = textBox7.Text;
-            textBox11.Text = nöbetcinum;
+            if (!checkBox1.Checked)
+            {
+                textBox14.UseSystemPasswordChar = true;
+            }
+            else
+            {
+                textBox14.UseSystemPasswordChar = false;
+            }
         }
     }
     

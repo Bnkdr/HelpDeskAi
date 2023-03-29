@@ -117,19 +117,4 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="textBoxDescription.Text" xml:space="preserve">
-    <value>Yönetici: Gökhan Kadir SANCAR
-Yönetici Yardımcısı: Muhammed Salih ZORBOZAN
-
-Yazılım Ve Tasarım Ekibleri Başı: İsmet Said TAŞ
-     Yazılım Ekibi Baş Yardımcısı: Fatih Eray KAYA
-     Tasarım Ekibi Baş Yardımcısı: Taha KILIÇOĞLU
-
-Veri Tabanı Uzmanı: Arda YEŞİLKAYA
-      Veri Tabanı Uzman Stajeri: Kübra YÜZER
-
-Donanım Ekibi Başı: Mert GÜR
-      Donanım Ekibi Baş Yardımcısı: Burak Efe AKBAL
-</value>
-  </data>
 </root>

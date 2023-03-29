@@ -1,6 +1,6 @@
 ﻿namespace HelpDeskAi
 {
-    partial class Form51
+    partial class Form61
     {
         /// <summary>
         /// Required designer variable.
@@ -58,8 +58,6 @@
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.textBox13 = new System.Windows.Forms.TextBox();
             this.button12 = new System.Windows.Forms.Button();
-            this.textBox14 = new System.Windows.Forms.TextBox();
-            this.textBox15 = new System.Windows.Forms.TextBox();
             this.panelMenu.SuspendLayout();
             this.panel1.SuspendLayout();
             this.panelTitleBar.SuspendLayout();
@@ -322,15 +320,13 @@
             this.textBox1.Font = new System.Drawing.Font("Bauhaus 93", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.textBox1.Location = new System.Drawing.Point(6, 19);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(134, 30);
+            this.textBox1.Size = new System.Drawing.Size(143, 30);
             this.textBox1.TabIndex = 4;
-            this.textBox1.Text = "Nöbetçi Girişi";
+            this.textBox1.Text = "Ziyaretçi Girişi";
             // 
             // panelDesktop
             // 
             this.panelDesktop.BackColor = System.Drawing.SystemColors.Control;
-            this.panelDesktop.Controls.Add(this.textBox15);
-            this.panelDesktop.Controls.Add(this.textBox14);
             this.panelDesktop.Controls.Add(this.textBox12);
             this.panelDesktop.Controls.Add(this.textBox11);
             this.panelDesktop.Controls.Add(this.textBox10);
@@ -360,9 +356,9 @@
             this.textBox12.Location = new System.Drawing.Point(191, 234);
             this.textBox12.Name = "textBox12";
             this.textBox12.ReadOnly = true;
-            this.textBox12.Size = new System.Drawing.Size(119, 17);
+            this.textBox12.Size = new System.Drawing.Size(225, 17);
             this.textBox12.TabIndex = 38;
-            this.textBox12.Text = "Nöbetçinin Sınıfı";
+            this.textBox12.Text = "Ziyaretçinin Öğrencisinin Sınıfı";
             this.textBox12.TextChanged += new System.EventHandler(this.textBox12_TextChanged_1);
             // 
             // textBox11
@@ -373,9 +369,9 @@
             this.textBox11.Location = new System.Drawing.Point(191, 171);
             this.textBox11.Name = "textBox11";
             this.textBox11.ReadOnly = true;
-            this.textBox11.Size = new System.Drawing.Size(155, 17);
+            this.textBox11.Size = new System.Drawing.Size(210, 17);
             this.textBox11.TabIndex = 37;
-            this.textBox11.Text = "Nöbetçinin Numarası";
+            this.textBox11.Text = "Ziyaretçinin Öğrencisinin Adı";
             // 
             // textBox10
             // 
@@ -385,9 +381,9 @@
             this.textBox10.Location = new System.Drawing.Point(191, 118);
             this.textBox10.Name = "textBox10";
             this.textBox10.ReadOnly = true;
-            this.textBox10.Size = new System.Drawing.Size(134, 17);
+            this.textBox10.Size = new System.Drawing.Size(144, 17);
             this.textBox10.TabIndex = 36;
-            this.textBox10.Text = "Nöbetçinin Soyadı";
+            this.textBox10.Text = "Ziyaretçinin Soyadı";
             // 
             // textBox9
             // 
@@ -399,7 +395,7 @@
             this.textBox9.ReadOnly = true;
             this.textBox9.Size = new System.Drawing.Size(119, 17);
             this.textBox9.TabIndex = 35;
-            this.textBox9.Text = "Nöbetçinin Adı";
+            this.textBox9.Text = "Ziyaretçinin Adı";
             this.textBox9.TextChanged += new System.EventHandler(this.textBox9_TextChanged_1);
             // 
             // comboBox1
@@ -435,13 +431,13 @@
             // 
             this.textBox8.BackColor = System.Drawing.SystemColors.Control;
             this.textBox8.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox8.Font = new System.Drawing.Font("Verdana", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.textBox8.Font = new System.Drawing.Font("Verdana", 9.5F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.textBox8.Location = new System.Drawing.Point(30, 211);
             this.textBox8.Name = "textBox8";
             this.textBox8.ReadOnly = true;
-            this.textBox8.Size = new System.Drawing.Size(119, 17);
+            this.textBox8.Size = new System.Drawing.Size(223, 16);
             this.textBox8.TabIndex = 33;
-            this.textBox8.Text = "Nöbetçinin Sınıfı";
+            this.textBox8.Text = "Ziyaretçinin Öğrencisinin Sınıfı";
             // 
             // textBox7
             // 
@@ -463,13 +459,13 @@
             // 
             this.textBox5.BackColor = System.Drawing.SystemColors.Control;
             this.textBox5.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox5.Font = new System.Drawing.Font("Verdana", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.textBox5.Location = new System.Drawing.Point(30, 143);
+            this.textBox5.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.textBox5.Location = new System.Drawing.Point(30, 150);
             this.textBox5.Name = "textBox5";
             this.textBox5.ReadOnly = true;
-            this.textBox5.Size = new System.Drawing.Size(155, 17);
+            this.textBox5.Size = new System.Drawing.Size(211, 15);
             this.textBox5.TabIndex = 30;
-            this.textBox5.Text = "Nöbetçinin Numarası";
+            this.textBox5.Text = "Ziyaretçinin Öğrencisinin Adı";
             // 
             // textBox4
             // 
@@ -479,9 +475,9 @@
             this.textBox4.Location = new System.Drawing.Point(30, 91);
             this.textBox4.Name = "textBox4";
             this.textBox4.ReadOnly = true;
-            this.textBox4.Size = new System.Drawing.Size(134, 17);
+            this.textBox4.Size = new System.Drawing.Size(143, 17);
             this.textBox4.TabIndex = 29;
-            this.textBox4.Text = "Nöbetçinin Soyadı";
+            this.textBox4.Text = "Ziyaretçinin Soyadı";
             // 
             // textBox3
             // 
@@ -493,7 +489,7 @@
             this.textBox3.ReadOnly = true;
             this.textBox3.Size = new System.Drawing.Size(119, 17);
             this.textBox3.TabIndex = 28;
-            this.textBox3.Text = "Nöbetçinin Adı";
+            this.textBox3.Text = "Ziyaretçinin Adı";
             // 
             // textBox2
             // 
@@ -525,31 +521,7 @@
             this.button12.UseVisualStyleBackColor = true;
             this.button12.Click += new System.EventHandler(this.button12_Click_1);
             // 
-            // textBox14
-            // 
-            this.textBox14.BackColor = System.Drawing.SystemColors.Control;
-            this.textBox14.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox14.Font = new System.Drawing.Font("Verdana", 12.5F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.textBox14.Location = new System.Drawing.Point(410, 40);
-            this.textBox14.Name = "textBox14";
-            this.textBox14.ReadOnly = true;
-            this.textBox14.Size = new System.Drawing.Size(148, 21);
-            this.textBox14.TabIndex = 39;
-            this.textBox14.TextChanged += new System.EventHandler(this.textBox14_TextChanged);
-            // 
-            // textBox15
-            // 
-            this.textBox15.BackColor = System.Drawing.SystemColors.Control;
-            this.textBox15.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox15.Font = new System.Drawing.Font("Bauhaus 93", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.textBox15.Location = new System.Drawing.Point(410, 10);
-            this.textBox15.Name = "textBox15";
-            this.textBox15.ReadOnly = true;
-            this.textBox15.Size = new System.Drawing.Size(147, 30);
-            this.textBox15.TabIndex = 5;
-            this.textBox15.Text = "Nöbetçi Şifresi:";
-            // 
-            // Form51
+            // Form61
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -557,9 +529,9 @@
             this.Controls.Add(this.panelDesktop);
             this.Controls.Add(this.panelTitleBar);
             this.Controls.Add(this.panelMenu);
-            this.Name = "Form51";
-            this.Text = "Form51";
-            this.Load += new System.EventHandler(this.Form51_Load);
+            this.Name = "Form61";
+            this.Text = "Form61";
+            this.Load += new System.EventHandler(this.Form61_Load);
             this.panelMenu.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
             this.panelTitleBar.ResumeLayout(false);
@@ -602,7 +574,5 @@
         private System.Windows.Forms.TextBox textBox4;
         private System.Windows.Forms.TextBox textBox3;
         private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox14;
-        private System.Windows.Forms.TextBox textBox15;
     }
 }
