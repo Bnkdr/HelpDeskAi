@@ -169,6 +169,7 @@ namespace HelpDeskAi
 
         private void button12_Click(object sender, EventArgs e)
         {
+            //şu anda login kontrolü aktif değil formlar arası key aktarimi yapilamadiğindan veri tabanindan veriyi beklicez
             String keyString = Convert.ToString(key);
             String textInput = textBox14.Text.ToLower();
             if (textInput.Equals(keyString)){
