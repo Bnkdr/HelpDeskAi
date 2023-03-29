@@ -14,6 +14,7 @@ namespace HelpDeskAi
     public partial class Form9 : Form
     {
         //Fields
+        string key = "3169";
         private int borderSize = 2;
         private Size formSize; //Keep form size when it is minimized and restored.Since the form is resized because it takes into account the size of the title bar and borders.
                                //Constructor
@@ -176,6 +177,21 @@ namespace HelpDeskAi
         private void textBox2_TextChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void button12_Click_1(object sender, EventArgs e)
+        {
+            Form91 form91 = new Form91();
+            form91.Show();
+            this.Hide();
+        }
+
+        private void textBox2_TextChanged_1(object sender, EventArgs e)
+        {
+            if (textBox2.Text == key)
+            {
+                button12.Visible = true;
+            }
         }
     }
     

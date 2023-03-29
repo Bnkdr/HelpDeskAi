@@ -8,18 +8,17 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Runtime.InteropServices;
-using System.Diagnostics.Eventing.Reader;
 
 namespace HelpDeskAi
 {
-    public partial class Form5 : Form
+    public partial class Form91 : Form
     {
         //Fields
         string key = "3169";
         private int borderSize = 2;
         private Size formSize; //Keep form size when it is minimized and restored.Since the form is resized because it takes into account the size of the title bar and borders.
                                //Constructor
-        public Form5()
+        public Form91()
         {
             InitializeComponent();
             CollapseMenu();
@@ -33,7 +32,7 @@ namespace HelpDeskAi
         }
 
 
-        private void Form5_Load(object sender, EventArgs e)
+        private void Form91_Load(object sender, EventArgs e)
         {
             formSize = this.ClientSize;
         }
@@ -171,46 +170,10 @@ namespace HelpDeskAi
 
         private void button12_Click_1(object sender, EventArgs e)
         {
-            Form51 form51 = new Form51();
-            form51.Show();
+            Form9 form9 = new Form9();
+            form9.Show();
             this.Hide();
         }
-
-        private void textBox13_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox14_TextChanged(object sender, EventArgs e)
-        {
-            if (textBox14.Text == key)
-            {
-                button12.Visible = true;
-            }
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void checkBox1_CheckedChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void checkBox1_CheckedChanged_1(object sender, EventArgs e)
-        {
-            if(!checkBox1.Checked)
-            {
-                textBox14.UseSystemPasswordChar = true;
-            }
-            else
-            {
-                textBox14.UseSystemPasswordChar = false;
-            }
-        }
-        
     }
     
 }
