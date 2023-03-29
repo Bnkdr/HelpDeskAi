@@ -453,6 +453,7 @@
             this.textBox6.Name = "textBox6";
             this.textBox6.Size = new System.Drawing.Size(134, 20);
             this.textBox6.TabIndex = 31;
+            this.textBox6.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             this.textBox6.TextChanged += new System.EventHandler(this.textBox6_TextChanged);
             // 
             // textBox5
